@@ -5,15 +5,15 @@ Resource    testData.robot
 
 *** Keywords ***
 
-compara arquivos csv
+compare files csv
     [arguments]    @{args} 
 
 #captura informação do primeiro arquivo csv e coloca na lista 
-    @{dict}=    Read Csv File To Associative    ${CURDIR}${/}data.csv
+    @{dict}=    Read Csv File To Associative    ${CURDIR}${/}sheet/data.csv
 
 
 #captura informação do segundo arquivo csv e coloca na lista 
-    @{dict2}=    Read Csv File To Associative    ${CURDIR}${/}data_2.csv
+    @{dict2}=    Read Csv File To Associative    ${CURDIR}${/}sheet/data_2.csv
 
 
     #Coloca a quantidade de linhas do primeiro arquivo csv na variavel quantidade_linhas
