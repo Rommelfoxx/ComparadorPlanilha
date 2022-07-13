@@ -44,9 +44,20 @@ Here will be inserted the files for comparison </p>
 Here are the test run results.
 
 ## Execução do teste 
+Antes da execução devemos colocar os arquivos para comparação dentro do diretorio sheet, estes arquivos devem ser CSV com os nomes data.csv e data_2.csv. No arquivo CompararArquivo.robot que esta dentro do diretorio test-case deve ser passado por argumento na keyword "compare files csv" quais colulas devem ser consideradas na comparação, iformar o nome exato da colula.
+	
 Para a execução devemos executar na pasta do projeto o seguinte comando 
 ### Robot -d results test-case 
+	
+As planilhas que estão no diretorio para exemplo estão com diferenças, deste modo o testes como esta configurado apresentará um erro informando das inconformidades. 
+	
+## Relatorio de Erro
 
+Caso seja encontrado um erro o relatorio exibirá qual a linha que foi encontrado os erros, no relatorio será informado todas as inconformidades do teste. 
+	
+![image](https://user-images.githubusercontent.com/62702351/178749848-8fcc49ef-ac72-46c1-97d0-10bdf60467c3.png)
+
+	
 ## Autor
 Bem meu nome é Vanderlan Alves. tenho uma paixão pela area de qualidade e acredito que devemos propagar a cultura da qualidade para todas as pessoas. Caso você compartilha deste pensamento me procure. Bora contruir um mundo com mais qualidade ❤❤❤!!
 <p>https://linkedin.com/in/vanderlan-alves-mba-ctal-tm-asf-0a76b422<p/>
