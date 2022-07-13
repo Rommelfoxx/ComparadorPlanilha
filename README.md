@@ -43,23 +43,34 @@ Here will be inserted the files for comparison </p>
 <p> Results - Aqui ficará os resultados da execução dos testes -
 Here are the test run results.
 
-## Execução do teste 
-Antes da execução devemos colocar os arquivos para comparação dentro do diretorio sheet, estes arquivos devem ser CSV com os nomes data.csv e data_2.csv. No arquivo CompararArquivo.robot que esta dentro do diretorio test-case deve ser passado por argumento na keyword "compare files csv" quais colulas devem ser consideradas na comparação, iformar o nome exato da colula.
+## Execução do teste (test execution)
+Antes da execução devemos colocar os arquivos para comparação dentro do diretorio sheet, estes arquivos devem ser CSV com os nomes data.csv e data_2.csv. No arquivo CompararArquivo.robot que esta dentro do diretorio test-case deve ser passado por argumento na keyword "compare files csv" quais colulas devem ser consideradas na comparação, informar o nome exato da colula.
+
+Before the execution we must place the files for comparison inside the sheet directory, these files must be CSV with the names data.csv and data_2.csv. In the file CompareArquivo.robot that is inside the test-case directory, it must be passed by argument in the keyword "compare files csv" which columns should be considered in the comparison, inform the exact name of the column.
 	
 Para a execução devemos executar na pasta do projeto o seguinte comando 
+	
+For the execution we must execute in the project folder the following command
 ### Robot -d results test-case 
 	
 As planilhas que estão no diretorio para exemplo estão com diferenças, deste modo o testes como esta configurado apresentará um erro informando das inconformidades. 
 	
-## Relatorio de Erro
+The worksheets that are in the directory for example are with differences, so the tests like this one will present an error informing the nonconformities.
+	
+## Relatorio de Erro (Error Report)
 
-Caso seja encontrado um erro o relatorio exibirá qual a linha que foi encontrado os erros, no relatorio será informado todas as inconformidades do teste. 
+Caso seja encontrado um erro o relatorio exibirá qual a linha que foi encontrado os erros, no relatorio será informado todas as inconformidades do teste.
+
+If an error is found, the report will display which line the errors were found, in the report all nonconformities of the test will be informed.
 	
 ![image](https://user-images.githubusercontent.com/62702351/178749848-8fcc49ef-ac72-46c1-97d0-10bdf60467c3.png)
 
 	
 ## Autor
 Bem meu nome é Vanderlan Alves. tenho uma paixão pela area de qualidade e acredito que devemos propagar a cultura da qualidade para todas as pessoas. Caso você compartilha deste pensamento me procure. Bora contruir um mundo com mais qualidade ❤❤❤!!
+
+Well my name is Vanderlan Alves. I have a passion for the area of ​​quality and I believe that we must spread the culture of quality to all people. If you share this thought, look for me. Let's build a world with more quality ❤❤❤!!
+
 <p>https://linkedin.com/in/vanderlan-alves-mba-ctal-tm-asf-0a76b422<p/>
 <p>https://medium.com/@vanderlan-alves-filho</p>
 
