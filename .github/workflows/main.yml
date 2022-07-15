@@ -27,7 +27,7 @@ jobs:
     - name: Install libraries for robot
       run: |
           pip install -U pip
-          pip install -r requirements.txt
+          pip install -U robotframework-csvlibrary
     - name: Run Tests
       run: |
             mkdir results
