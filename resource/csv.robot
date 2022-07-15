@@ -1,7 +1,7 @@
 *** Settings ***
 Library     Collections
 Library     CSVLibrary
-Resource    testData.robot
+
 
 *** Keywords ***
 

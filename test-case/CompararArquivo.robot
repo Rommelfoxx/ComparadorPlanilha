@@ -1,5 +1,5 @@
 *** Settings ***
-Resource     ../Resource/csv.robot
+Resource     ../resource/csv.robot
 
 *** Test Cases ***
 
